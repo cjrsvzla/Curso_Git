@@ -1,0 +1,147 @@
+    1  git config -- global user.name 'Kaue Maia'
+    2  git config --global user.name 'Kaue Maia1
+    3  git config --global user.name 'Kaue Maia'
+    4  git config --global user.email 'kaue.maia@gmail.com'
+    5  git config user.name
+    6  clear
+    7  git log
+    8  git log --pretty=oneline
+    9  git log --stat
+   10  git log -p
+   11  git log pretty=oneline -2
+   12  git log --pretty=oneline -2
+   13  git log --pretty=oneline -3
+   14  git log --pretty=oneline -4
+   15  git log --since=2.minutes
+   16  git log --since=20.minutes
+   17  git log --since=40.minutes
+   18  git log --since=60.minutes
+   19  git log --since=80.minutes
+   20  git log --authors='Carlos Rigal'
+   21  git log --author='Carlos Rigal'
+   22  git status
+   23  touch teste
+   24  git add teste
+   25  git status
+   26  git commit -m 'commit de teste'
+   27  git log
+   28  git reset --soft HEAD~
+   29  git log
+   30  git status
+   31  git commit -m 'commit de teste'
+   32  git log
+   33  git reset --hard
+   34  git reset --hard HEAD~
+   35  git log
+   36  git status
+   37  git log --pretty=oneline
+   38  git checkout HEAD~~
+   39  git status
+   40  git log
+   41  ls
+   42  git checkout master
+   43  git log
+   44  git checkout HEAD~2
+   45  git log
+   46  git checkout HEAD~
+   47  git checkout master
+   48  mkdir .vscode
+   49  touch conf.txt .vscode/
+   50  ls .vscode/
+   51  ls .vscode/
+   52  touch conf.txt
+   53  mv conf.txt .vscode/
+   54  ls conf.txt
+   55  ls .vscode/
+   56  ls
+   57  ls -a
+   58  git status
+   59  echo '.vscode/' > .gitignore
+   60  git status
+   61  touch pessoal.conf
+   62  git status
+   63  echo 'pessoal.conf' >> .gitignore
+   64  git status
+   65  git add .gitignore
+   66  git commit -m 'Adicionado arquivo .gitignore'
+   67  git status
+   68  history > Aula_4.txt
+   69  git status
+   70  git add.
+   71  git add .
+   72  git commit -m 'Comandos da Aula 4'
+   73  history -c:clerar
+   74  history -c:clear
+   75  history -c: clear
+   76  history -c: clear
+   77  history -c: clear
+   78  git log pretty=oneline -2
+   79  git log --p -2
+   80  git log -p -2
+   81  git log -2
+   82  clear
+   83  git branch
+   84  git checkout -b
+   85  git checkout -b feature
+   86  git branch
+   87  touch Nova_feature
+   88  git status
+   89  git add Nova_feature
+   90  git status
+   91  git commit -m 'Adicionando nova feature
+   92  git commit -m 'Adicionando nova feature'
+   93  q
+   94  git status
+   95  clear
+   96  ls
+   97  ls Desktop
+   98  Curso_Git/
+   99  ls Curso_Git
+  100  git config -- global user.name 'Kaue Maia'
+  101  ls Desktop/
+  102  ls Desktop/Curso_Git
+  103  git branch
+  104  cd Desktop/Curso_Git
+  105  cd master
+  106  git branch
+  107  cd master
+  108  cd Desktop/Curso_Git master
+  109  cd Desktop/Curso_Git .master
+  110  touch Nova_feature
+  111  git status
+  112  git log
+  113  git commit -m 'Adicionando nova feature'
+  114  git log
+  115  git checkout master
+  116  git status
+  117  git log
+  118  touch Continuando_master
+  119  git add Continuando_master
+  120  git commit -m 'Adicionando continuacao na master'
+  121  git log
+  122  git checkout featured
+  123  git checkout feature
+  124  git log
+  125  git checkout -b feature2 master
+  126  git log
+  127  git gheckout -d feature2
+  128  git checkout -d feature2
+  129  git checkout feature2
+  130  git log
+  131  git branch -d feature2
+  132  git checkout master
+  133  git branch -d feature2
+  134  git log
+  135  git checkout feature2
+  136  clear
+  137  git checkout feature
+  138  git log --pretty=oneline -- graph
+  139  git log --pretty=oneline --graph
+  140  git merge master
+  141  git log
+  142  git log --pretty=oneline --graph
+  143  git reset --hard HEAD~
+  144  git log --pretty=oneline --graph
+  145  git rebase master
+  146  git log --pretty=oneline --graph
+  147  history > Aula_5.txt
